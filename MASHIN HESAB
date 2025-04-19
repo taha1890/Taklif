@@ -1,0 +1,20 @@
+def calculate(a1, a2, a3, a4, a5, a6):
+    result = (((a1 * a2) - a3) / a4) + (a5 * a6)
+    return result
+
+# دریافت ورودی از کاربر
+a1 = float(input("write number 1: "))
+a2 = float(input("write number 2: "))
+a3 = float(input("write number 3: "))
+a4 = float(input("write number 4: "))
+a5 = float(input("write number 5: "))
+a6 = float(input("write number 6: "))
+
+# محاسبه و نمایش نتیجه
+result = calculate(a1, a2, a3, a4, a5, a6)
+
+print(f" final result: {result}")
+if result < 100 :
+    print ("no")
+elif result > 100 :
+    print ("yes")
